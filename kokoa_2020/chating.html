@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>chatting / kokoaa_clone_2020</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body id="chating-screen">
+    <div class="statusbar">
+      <div class="statusbar__column">
+        <span>No service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="statusbar__column">
+        <span>18:43</span>
+      </div>
+      <div class="statusbar__column">
+        <i class="far fa-smile"></i>
+        <span>90%</span>
+        <i class="fas fa-battery-full"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a href="chat.html">
+          <i class="fas fa-chevron-left"></i>
+        </a>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">Pengsu</h1>
+      </div>
+      <div class="alt-header__column">
+        <span>
+          <i class="fas fa-search"></i>
+        </span>
+        <span>
+          <i class="fas fa-bars"></i>
+        </span>
+      </div>
+    </header>
+
+    <main class="main-screen main-chat">
+      <div class="chat__timestamp">Tuesday, June 30, 2020</div>
+
+      <div class="message-row">
+        <img src="img/imeage.jpg" alt="profileimg" />
+        <div class="message-row__content">
+          <span class="message__autor"> Pengsu </span>
+          <div class="message__info">
+            <span class="message__bubble"> Peng-Ha! </span>
+            <span class="message__time">21:27</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row message-row--own">
+        <div class="message__info">
+          <span class="message__bubble"> Peng-Ba! </span>
+          <span class="message__time">21:27</span>
+        </div>
+      </div>
+    </main>
+
+    <form class="replay">
+      <div class="replay__column">
+        <i class="far fa-plus-square"></i>
+      </div>
+      <div class="replay__column">
+        <input type="text" placeholder="Write a message...!" />
+        <i class="far fa-smile"></i>
+        <button>
+          <i class="fas fa-arrow-up"></i>
+        </button>
+      </div>
+    </form>
+    
+    <div id="mobile-screen">
+      <span>Please look at the small screen</span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,122 @@
+.recommended-friends {
+  border-top: var(--main-border);
+  border-bottom: var(--main-border);
+  padding: 25px 0;
+  margin: 10px 0;
+}
+
+.recommended-friends__title {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.recommended-friends__text {
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 18px;
+  font-weight: 500;
+  display: block;
+  text-align: center;
+  margin: 100px 0;
+}
+.open-post {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.open-chat__header {
+  display: flex;
+  justify-content: space-between;
+  color: rgba(0, 0, 0, 0.4);
+  font-weight: 500;
+  margin-bottom: 25px;
+}
+
+.open-chat__header span {
+  opacity: 0.5;
+}
+
+.open-post__title,
+.open-post__hashtags {
+  font-size: 20px;
+  margin-bottom: 7px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.open-post__hashtags {
+  opacity: 0.5;
+}
+
+.open-post__members {
+  display: flex;
+  align-items: center;
+}
+
+.open-post__members img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+  margin-right: 5px;
+}
+
+.open-post__members-count {
+  opacity: 0.5;
+  font-size: 15px;
+  margin-right: 5px;
+}
+
+.open-post__members .divider {
+  width: 1px;
+  height: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-right: 5px;
+}
+
+.open-post__members-status {
+  color: #ffb0e0;
+}
+
+.open-post__img {
+  width: 250px;
+  height: 250px;
+  position: relative;
+  border-radius: 25px;
+}
+.open-post__icon {
+  display: flex;
+  position: absolute;
+  bottom: 160px;
+  right: 43px;
+  padding: 5px 7px;
+
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+}
+.open-post__icon i,
+.open-post__icon span {
+  font-size: 15px;
+  color: #fff;
+  padding: 0 3px;
+}
+
+.open-post__icon:hover i {
+  animation: heartBeat 0.8s ease-in-out infinite;
+  will-change: transform;
+}
+
+@keyframes heartBeat {
+  0% {
+    transform: none;
+    color: #fff;
+  }
+  50% {
+    transform: scale(1.8);
+    color: tomato;
+  }
+  100% {
+    transform: none;
+    color: #fff;
+  }
+}
