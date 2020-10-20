@@ -1,0 +1,37 @@
+#center {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  background-color: darksalmon;
+  flex-direction: column;
+  margin: 20px 0;
+}
+
+.center__01,
+.center__03 {
+  width: 1290px;
+  display: flex;
+  background-color: darkseagreen;
+}
+
+.center__01-imgbox {
+  width: 645px;
+  height: 350px;
+  background-color: dimgrey;
+}
+
+.center__01-textbox {
+  width: 645px;
+  height: 350px;
+  background: lightgrey;
+}
+
+.center__02 {
+  width: 1290px;
+  height: 450px;
+  background-color: darkgrey;
+}
+
+.center__03 {
+  flex-direction: row-reverse;
+}
